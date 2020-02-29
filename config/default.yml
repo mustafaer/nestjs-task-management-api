@@ -1,0 +1,9 @@
+server:
+  port: 8000
+
+db:
+  type: 'postgres'
+  port: '5432'
+  database: 'taskmanagement'
+jwt:
+  expiresIn: 3600
